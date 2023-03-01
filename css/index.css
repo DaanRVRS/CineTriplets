@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+}
+
+
+body header {
+    background-color: black;
+    width: auto;
+    height: 120px;
+    
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;  
+}
+
+
+
+body header i {
+    color: white;
+    cursor: pointer;
+}
+
+body .locationBar {
+    width: auto;
+    height: 25px;
+    background-color: #E6007E;
+    border-radius: 0 0 10px 10px;
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}  
+
+body .locationBar i {
+    color: white;
+    margin-left: 300px;
+    cursor: pointer;
+}
+body .locationBar p {
+    color: white;
+    margin-left: 5px;
+}
+
+body {
+    background-color: black;
+}
+
+body  main {
+    width: auto;
+    height: 1000px;
+    background-image: url('/img/cineTripletsBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body footer {
+    background-color: #E6007E;
+    width: auto;
+    height: 200px;
+}
