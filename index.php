@@ -13,7 +13,7 @@
         <header>
             <i class="fa-solid fa-bars fa-2x"></i>
             <img src="img/CineTriplets.png" width="330px" height="330px">
-            <i class="fa-solid fa-user fa-2x"></i>
+            <i class="fa-solid fa-user fa-2x" onclick="location.href='inlog.php'"></i>
         </header>
         <!-- bar under header (current location etc.) -->
         <section class="locationBar">
@@ -27,7 +27,32 @@
         </main>
 
         <footer>
+            <!-- catering plaatje footer -->
+            <img src="img/download.svg" alt="dining image">
 
+            <!-- de text in de footer -->
+            <section class="footerText">
+
+            <div>
+                <h3>Adres</h3>
+                <p>Kerkplein 2b</p>
+                <p>6581 AC Malden</p>
+                <p>024 622 13 46</p>
+            </div>
+            <div>
+                <h3>Volg ons op</h3>
+                <i class="fa-brands fa-square-facebook fa-2x"></i>
+                <i class="fa-brands fa-square-instagram fa-2x"></i>
+            </div>
+            <div>
+                <h3>Cine Twins</h3>
+                <p>Contact</p>
+                <p>Openinstijden</p>
+                <p>Ons concept</p>
+            </div>
+
+            </section>
+            
         </footer>
 
     </body>
